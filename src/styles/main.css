@@ -25,6 +25,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 90vh;
+<<<<<<< HEAD
 }
 
 .app-header {
@@ -35,6 +36,17 @@ body {
 }
 
 .header-left h1 {
+=======
+    /* Fixed height for chat application */
+}
+
+.app-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.app-header h1 {
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
     font-weight: 700;
     letter-spacing: -0.05em;
     background: linear-gradient(to right, #a78bfa, #22d3ee);
@@ -47,6 +59,7 @@ body {
 .subtitle {
     color: #94a3b8;
     margin-top: 0.5rem;
+<<<<<<< HEAD
     margin-bottom: 0;
 }
 
@@ -321,6 +334,8 @@ body {
     font-size: 0.85rem;
     color: #94a3b8;
     text-align: center;
+=======
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
 }
 
 .glass-panel {
@@ -331,6 +346,7 @@ body {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 /* Interview Container */
 .interview-container {
     flex: 1;
@@ -338,6 +354,8 @@ body {
     flex-direction: column;
 }
 
+=======
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
 /* Chat Specific Styles */
 .chat-container {
     flex: 1;
@@ -354,7 +372,11 @@ body {
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     gap: 1.5rem;
+=======
+    gap: 1rem;
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
     scrollbar-width: thin;
     scrollbar-color: var(--glass-border) transparent;
 }
@@ -368,6 +390,7 @@ body {
     border-radius: 3px;
 }
 
+<<<<<<< HEAD
 /* Question & Answer Pair */
 .qa-pair {
     display: flex;
@@ -375,6 +398,8 @@ body {
     gap: 0.75rem;
 }
 
+=======
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
 .message-bubble {
     max-width: 80%;
     padding: 1rem;
@@ -388,6 +413,10 @@ body {
         opacity: 0;
         transform: translateY(10px);
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
     to {
         opacity: 1;
         transform: translateY(0);
@@ -407,6 +436,7 @@ body {
     border-bottom-right-radius: 2px;
 }
 
+<<<<<<< HEAD
 .question-label {
     font-size: 0.75rem;
     color: #94a3b8;
@@ -511,45 +541,83 @@ body {
 }
 
 .text-input-area textarea {
+=======
+.input-area {
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--glass-border);
+}
+
+textarea {
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
     flex: 1;
     background: rgba(0, 0, 0, 0.3);
     border: 1px solid var(--glass-border);
     border-radius: 8px;
+<<<<<<< HEAD
     padding: 1rem;
+=======
+    padding: 0.8rem;
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
     color: white;
     resize: none;
     font-family: inherit;
     font-size: 1rem;
+<<<<<<< HEAD
     min-height: 100px;
 }
 
 .text-input-area textarea:focus {
+=======
+    height: 50px;
+}
+
+textarea:focus {
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
     outline: none;
     border-color: var(--primary-color);
 }
 
+<<<<<<< HEAD
 .submit-button {
     align-self: flex-end;
     background: var(--primary-color);
     border: none;
     border-radius: 8px;
     padding: 0.75rem 2rem;
+=======
+button {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    padding: 0 1.5rem;
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
     color: white;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s;
 }
 
+<<<<<<< HEAD
 .submit-button:hover:not(:disabled) {
     filter: brightness(1.1);
     transform: translateY(-2px);
 }
 
 .submit-button:disabled {
+=======
+button:hover {
+    filter: brightness(1.1);
+}
+
+button:disabled {
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
     opacity: 0.5;
     cursor: not-allowed;
 }
 
+<<<<<<< HEAD
 /* Completion Message */
 .completion-message {
     text-align: center;
@@ -573,5 +641,11 @@ body {
     font-size: 0.9rem;
     margin-top: 1rem;
     text-align: center;
+=======
+.loading-indicator {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    margin-left: 1rem;
+>>>>>>> 5cbc4af5b4390bb6ec5818130de153106b7d3c2f
     font-style: italic;
 }
